@@ -1,0 +1,31 @@
+.home-page-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container{
+    height: 100vh;
+    width: 75vw;
+
+    background-color: rgb(222, 220, 220);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-button-link{
+    background-color: gray;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+img {
+    height: 400px;
+    border-radius: 250px;
+    padding: 10px;
+    background-color: black;
+}
