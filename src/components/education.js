@@ -32,15 +32,54 @@ class Education extends Component {
                 description: "Accelerated learning in web development",
                 image: "Possible image here...",
                 institution: "Bottega"
-            }
+            },
+            {
+                id: 4,
+                title: "Finish Carpentry",
+                description: "Mostly on the job learning with some formal education in woodwork.",
+                image: "Possible image here...",
+                institution: "Various"
+            },
+            {
+                id: 5,
+                title: "Basic Automotive & Mechanics",
+                description: "High School class and father who did many repairs as I watched",
+                image: "Possible image here...",
+                institution: "Skyline High & Life"
+            },
+            {
+                id: 6,
+                title: "Mechanic",
+                description: "Experience at the Airport diagnosing and fixing the cleaning equipment.",
+                image: "Possible image here...",
+                institution: "SLC Airport"
+            },
+            {
+                id: 7,
+                title: "Calculus 1-3",
+                description: "Calculus 1, 2, 3 ",
+                image: "Possible image here...",
+                institution: "SLCC, U of U"
+            },
+            {
+                id: 8,
+                title: "Digital Electronics",
+                description: "Circuit design class",
+                image: "Possible image here...",
+                institution: "U of U"
+            },
         ]
         return (
             <div className="education">
                 <Navbar/>
-                <h1>Education Page</h1>
-                {this.courses.map((course) => {
-                    return <Course key={course.id} {...course}/>
-                })}
+                <div className='education-content'>
+                    <h1>Education and Skills</h1>
+                    <div className='courses'>
+                        {this.courses.map((course) => {
+                            return <Course key={course.id} {...course}/>
+                        })}
+                    </div>
+                </div>
             </div>
         );
     }
