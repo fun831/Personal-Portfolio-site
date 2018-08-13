@@ -7,31 +7,31 @@ class Education extends Component {
         this.courses = [
             {
                 id: 0,
-                title: "Course Name",
-                description: "Course Description Goes Here",
+                title: "Intro To Object Oriented Programming",
+                description: "Fundamentals and basics of OOP using Java",
                 image: "Possible image here...",
-                institution: "place of study"
+                institution: "Salt Lake Community College"
             },
             {
-                id: 0,
-                title: "Course Name",
-                description: "Course Description Goes Here",
+                id: 1,
+                title: "Object Oriented Programming",
+                description: "Basics of Object Oriented Programming",
                 image: "Possible image here...",
-                institution: "place of study"
+                institution: "University of Utah"
             },
             {
-                id: 0,
-                title: "Course Name",
-                description: "Course Description Goes Here",
+                id: 2,
+                title: "Algorithms and Data Structures",
+                description: "Dive into sorting algorithms and basic data structures",
                 image: "Possible image here...",
-                institution: "place of study"
+                institution: "University of Utah"
             },
             {
-                id: 0,
-                title: "Course Name",
-                description: "Course Description Goes Here",
+                id: 3,
+                title: "Web Development",
+                description: "Accelerated learning in web development",
                 image: "Possible image here...",
-                institution: "place of study"
+                institution: "Bottega"
             }
         ]
         return (
