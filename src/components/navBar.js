@@ -9,15 +9,14 @@ export default class Navbar extends Component {
                 <i className="fas fa-bars"></i>
             </a>
             <Link to="/" className="brand">Logo</Link>
-            <div className="left">
+            <div className='links'>    
                 <Link to="/" className="link">Home</Link>
                 <Link to="/projects" className="link">Projects</Link>
-                <Link to="/education" className="link">Education</Link>
-            </div>
-            <div className="right">
+                <Link to="/education" className="link">Education</Link>            
                 <Link to="/about" className="link">About Me</Link>
                 <Link to="/contact" className="link">Contact</Link>
             </div>
+            
         </div>
     );
   }

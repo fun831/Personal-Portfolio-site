@@ -1,12 +1,4 @@
-html {
-    font-family: 'Oxygen', sans-serif;
-}
-body {
-    margin: 0px;
-}
-
 .navbar {
-    background: #42033D;
     background-color: #1C77C3;
 }
 .navbar div {
@@ -19,11 +11,13 @@ body {
 .navbar .link {
     display: block;
     text-align: center;
-    padding: 1em;
-    text-decoration: none;
-    background: #2589BD;
-    color: white;
     margin-right: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    background: rgba(183, 193, 203, 0.516);
+    color: white;
 }
 .navbar .link:hover,
 .navbar .link:active {
@@ -31,10 +25,10 @@ body {
     background: white;
 }
 .navbar .brand {
-    width: 10em;
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: 2.2em;
+    background-color: black;
 }
 .navbar a {
     text-decoration: none;
@@ -48,10 +42,10 @@ body {
     .navbar {
         display: flex;
     }
-    .navbar .left,
-    .navbar .right {
+    .navbar .links {
         display: flex;
-        flex: 1;
+        justify-self: center;
+        background-color: black;
     }
     .navbar .link {
         width: auto;
@@ -70,7 +64,7 @@ body {
 }
 @media (max-width: 48em) {
     .navbar.active .toggle {
-        background: #223047;
+        background: rgba(2, 18, 26, 0.098);
         color: white;
     }
     .navbar .brand {

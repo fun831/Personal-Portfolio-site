@@ -1,3 +1,31 @@
+.projects-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects{
+    height: 100%;
+    width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(2, 18, 26, 0.098);
+    padding: 20px;
+}
 .project {
-    padding: 15px;
+    color: black;
+    min-height: 150px;
+    width: 350px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+
+    &:hover{
+        color: black;
+        background-color: whitesmoke;
+        text-decoration-line: none;
+    }
 }

@@ -31,12 +31,16 @@ class Projects extends Component {
             }     
         ]
         return (
-            <div className="projects">
-                <Navbar/>
-                <h1>Projects Page</h1>
-                {this.projects.map((project) => {
-                    return <Project key={project.id} {...project}/>
-                })}
+            <div className='projects-page'>
+            <Navbar/>
+                <div className='projects-content'>
+                    <h1>Projects Page</h1>
+                    <div className="projects">
+                        {this.projects.map((project) => {
+                            return <Project key={project.id} {...project}/>
+                        })}
+                    </div>
+                </div>                
             </div>
         );
     }
