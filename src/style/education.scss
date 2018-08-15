@@ -6,12 +6,14 @@
 }
 .courses{
     height: 100%;
-    width: 65vw;
+    width: 75vw;
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
     background-color: rgba(2, 18, 26, 0.098);
     padding: 20px;
 }

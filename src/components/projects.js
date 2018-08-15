@@ -9,7 +9,7 @@ class Projects extends Component {
                 id: 0,
                 title: "A MadLib",
                 description: "Built with React using two way binding...",
-                image: "Possible image here...",
+                image: "/assets/madlib.png",
                 institution: "Bottega",
                 link: 'https://amadlib.herokuapp.com/'
             },
@@ -17,7 +17,7 @@ class Projects extends Component {
                 id: 1,
                 title: "Birthday Count Down",
                 description: "Built with React using CSS grid...",
-                image: "Possible image here...",
+                image: "/assets/countdown.png",
                 institution: "Bottega",
                 link: 'http://bdaycountdown.herokuapp.com/'
             },
@@ -25,7 +25,7 @@ class Projects extends Component {
                 id: 2,
                 title: "Class Scheduler",
                 description: "Built with React using CSS grid...",
-                image: "Possible image here...",
+                image: "/assets/scheduler.png",
                 institution: "Bottega",
                 link: 'https://class-scheduler-app.herokuapp.com/'
             }     

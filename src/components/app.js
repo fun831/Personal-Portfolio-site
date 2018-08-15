@@ -11,7 +11,7 @@ export default class App extends Component {
         <div className='home-page-content-container'>
           <div className="content-container">
             <div className='pic'>
-              <img src="https://i.kym-cdn.com/entries/icons/facebook/000/018/385/Rs_634x1024-130605092844-634.DespMe2.mh.060513.jpg" alt="profile pic or something similar"/>
+              <img src="/assets/profile_pic.png" alt="profile pic or something similar"/>
             </div>
             <p>
             Hello and welcome to my portfolio site. At the top you can navigate between pages

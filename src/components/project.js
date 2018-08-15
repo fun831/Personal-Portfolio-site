@@ -8,6 +8,7 @@ class Project extends Component {
     render() {
         return (
             <a href={this.props.link} target='_blank' className="project">
+                <img src={this.props.image} alt="Site Image" />
                 <div className='title'>{this.props.title}</div>
                 <div className='institution'>{this.props.institution}</div>
                 <div className='description'>{this.props.description}</div>
