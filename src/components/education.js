@@ -9,22 +9,25 @@ class Education extends Component {
                 id: 0,
                 title: "Intro To Object Oriented Programming",
                 description: "Fundamentals and basics of OOP using Java",
-                image: "Possible image here...",
-                institution: "Salt Lake Community College"
+                image: "/assets/oop_brackets.png",
+                institution: "Salt Lake Community College",
+                long_description: "Fundamentals of Object Oriented Programming. Language used was Java. Learned about classes, variable types, methods, private and public, etc."
             },
             {
                 id: 1,
                 title: "Object Oriented Programming",
                 description: "Basics of Object Oriented Programming",
-                image: "Possible image here...",
-                institution: "University of Utah"
+                image: "/assets/oop_brackets.png",
+                institution: "University of Utah",
+                long_description: "In this class we used C++ and Java. We learned how to program the Arduino using the knowledge gained in C++."
             },
             {
                 id: 2,
                 title: "Algorithms and Data Structures",
                 description: "Dive into sorting algorithms and basic data structures",
-                image: "Possible image here...",
-                institution: "University of Utah"
+                image: "",
+                institution: "University of Utah",
+                long_description: "Study of insertion sort, merge sort, quick sort, heap sort, and others. Learned about graphs and trees, BSTs and implementations of them. Understanding of data structures and many of their uses."
             },
             {
                 id: 3,

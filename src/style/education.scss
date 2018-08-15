@@ -6,7 +6,7 @@
 }
 .courses{
     height: 100%;
-    width: 75vw;
+    width: 65vw;
 
     display: flex;
     flex-wrap: wrap;
@@ -18,9 +18,29 @@
     padding: 20px;
 }
 .course {
-    min-height: 150px;
+    transition: 0.3s;
+    height: 250px;
     width: 350px;
     padding: 10px;
     margin-top: 20px;
     border: 2px solid black;
+    
+    img {
+        width: 100%;
+    }
+    
+    .long_description{
+        display: none;
+    }
+        
+    &:hover{
+        transition: 0.3s;
+        background-color: rgba(77, 118, 167, 0.447);
+        div, img {
+            display: none;
+        }   
+        .long_description{
+            display: block;
+        }
+    }
 }

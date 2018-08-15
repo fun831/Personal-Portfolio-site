@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #1C77C3;
+    background-color: rgb(77, 118, 167);
 }
 .navbar div {
     display: none;
@@ -17,6 +17,7 @@
 
     text-decoration: none;
     background: rgba(183, 193, 203, 0.516);
+    border-radius: 3px;
     color: white;
 }
 .navbar .link:hover,
@@ -28,14 +29,13 @@
     text-align: left;
     color: white;
     font-size: 2.2em;
-    background-color: black;
 }
 .navbar a {
     text-decoration: none;
 }
 .navbar .toggle {
     padding: 1em;
-    color: black;
+    color: white;
 }
 
 @media (min-width: 48em) {
@@ -45,7 +45,6 @@
     .navbar .links {
         display: flex;
         justify-self: center;
-        background-color: black;
     }
     .navbar .link {
         width: auto;
